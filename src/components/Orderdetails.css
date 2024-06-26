@@ -1,0 +1,88 @@
+/* Orderdetails.css */
+.order {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+   
+    /* left: 0px; */
+}
+
+.order-body{
+    position: fixed;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    backdrop-filter: blur(20px);
+    width: 1500px;
+    height:847px;
+right:15px;
+    padding: 50px 50px 50px 50px;
+    /* left: 0px; */
+    top:15p
+}
+
+.header5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    left:874px;
+    border: 2px solid white;
+    top:38px;
+}
+
+.orderdetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* background-color: #fff; */
+}
+
+.Pd-Box {
+    position: fixed;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    left:429px;
+    width:1294px;
+    top:86px;
+}
+
+.p1-Product, .p2-Name, .p3-Category, .p4_Description, .p5-Price, .p6-Price, .p6, .p7-Photo {
+    margin: 5px 0;
+}
+
+.accept, .reject {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.accept {
+    background-color: #4CAF50;
+    color: white;
+    left:945px;
+    top:295px;
+}
+
+.reject {
+    background-color: #f44336;
+    color: white;
+    left:1034px;
+    top:295px;
+}
+
+/* .separator {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 20px 0;
+} */

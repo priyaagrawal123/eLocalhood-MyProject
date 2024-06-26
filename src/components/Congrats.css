@@ -1,0 +1,48 @@
+.page{
+    position: fixed;
+text-align: center;
+display: flex;
+/* border:2px solid black; */
+right:1218px;
+height:390px;
+width:490px;
+bottom: 318px;
+background-color: transparent;
+backdrop-filter: blur(28px);
+border-radius: 4px ;
+box-shadow: 1px 2px 5px 4px grey;
+}
+.page .icon{
+    position: fixed;
+    bottom: 320px;
+    font-size: 130px;
+    right:170px;
+}
+.page h1{
+    position: fixed;
+    left:138px;
+    top:118px;
+}
+.page h3{
+    position: fixed;
+    top:199px;
+    left:10px;
+}
+.page .btn{
+    position: fixed;
+    color: black;
+    top:320px;
+    font-size: 20px;
+    left:212px;
+    background-color: plum;
+    border: 2px solid purple;
+    border-radius: 4px;
+    width:89px;
+
+}
+.btn:hover{
+    background-color:rgb(67, 22, 67);
+    transition: background-color color 2s ease-in;
+    color: white;
+
+}

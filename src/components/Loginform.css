@@ -1,0 +1,155 @@
+.loginform{
+    position: relative;
+    width:600px;
+    height: 400px;
+    background-color:transparent;
+    border-radius: 4px;
+    /* border: 2px solid #886f6f ; */
+    padding: 10px 100px 50px 100px;
+    box-shadow: 2px 2px 5px 0.7px white;
+    backdrop-filter: blur(20px);
+    right: 429px;
+}
+
+.loginform .header1{
+    position: fixed;
+    text-align: center;
+    left:189px;
+    top:20px;
+    color: yellow;
+    background: linear-gradient(45deg, blue, pink);
+}
+.loginform .input-box1{
+position: fixed;
+height:50%;
+width: 50px;
+height:40px;
+margin: 30px 0;
+bottom:250px;
+left:220px;
+
+
+}
+.input-box1 input {
+    background :transparent;
+   border: 2px solid white;
+border-radius:4px ;
+height: 30px;
+width:250px;
+text-align: center;
+color: white;
+}
+.loginform .input-box2{
+    position: fixed;
+    height:50%;
+    width: 50px;
+    height:40px;
+    margin: 30px 0;
+    bottom:150px;
+    left:220px;
+
+}
+ .input-box2 .e{
+    position: fixed;
+    bottom:320px;
+    left:13px;
+}
+    .input-box2 input {
+        background :transparent;
+       border: 2px solid white;
+    border-radius:4px ;
+    height: 30px;
+    width:250px;
+    text-align: center;
+color: white;
+    }
+    .input-box1 .mail{
+        position: fixed;
+        right:410px;
+        top:80px;
+    color: white;
+    }
+    
+    .input-box2 .pass{
+        position: fixed;
+        right:400px;
+        top:180px;
+        color: white;
+    }
+    .input-box1 .icon{
+        position: fixed;
+        bottom: 295px;
+        right: 380px;
+        font-size: 20px;
+        color: white;
+    }
+    .input-box2 .icon{
+        position: fixed;
+        bottom: 200px;
+        right: 380px;
+        color: white;
+    }
+    .loginform .Remember-me .label1 {
+        position: fixed;
+        top:250px;
+        /* color: #886f6f; */
+        left:400px;
+        color: white;
+    }
+    .loginform a{
+        position: fixed;
+        top:250px;
+        color: white
+    }
+    .Remember-me a:hover{
+        text-decoration: underline;
+        transition:ease-in 2s;
+        }
+    .loginform .Register-link p{
+        position: fixed;
+top:340px;
+left:230px;
+color: white;
+font-weight: bold;
+    }
+
+    .loginform .Register-link a{
+        position: fixed;
+top:365px;
+left:284px;
+color: yellow;
+    }
+
+.loginform button{
+    position: fixed;
+    top:270px;
+    left: 285px;
+    height: 30px;
+    width:80px;
+}
+.loginform .error1{
+    position: fixed;
+    top:110px;
+    left:200px;
+    color: black;
+    font-size: 14px;
+}
+.loginform .error2{
+    position: fixed;
+    top:110px;
+    left:250px;
+}
+.loginform .error3{
+    position: fixed;
+    top:210px;
+    left:200px;
+    font-size: 12px;
+}
+.loginform .error4{
+    position: fixed;
+    top:210px;
+    left:240px;
+}
+i{
+    color: white;
+}

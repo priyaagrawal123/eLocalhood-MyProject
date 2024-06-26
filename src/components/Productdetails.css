@@ -1,0 +1,284 @@
+.product{
+    position: relative;
+    text-align: center;
+    display: flex;
+    height:638px;
+    width:500px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    padding:10px 10px 10px 50px;
+    backdrop-filter: blur(20px); 
+    box-shadow: 2px 2px 5px 0.7px white;
+    right:429px;
+}
+.product h2{
+    position: fixed;
+    background:linear-gradient(45deg,blue,pink) ;
+    top:10px;
+    color: yellow;
+  font-size: 26px;
+  width:319px;
+    left:98px;
+}
+ 
+.product .box1{
+    position: fixed;
+    height: 30px;
+    top:70px;
+    left:148px;
+    border: 2px solid white;
+    background: transparent;
+
+    border-radius: 4px;
+    width:220px;
+    color: azure;
+    font-weight: bold;
+}
+.product1{
+    position: fixed;
+font-weight:268px;
+top:70px;
+left:79px;
+font-size:large;
+color: white;
+}
+select{
+    position: fixed;
+    background-color: transparent;
+    top:124px;
+    width:67px;
+}
+
+.product .box1 input{
+    position: relative;
+   text-align: center;
+   left:156px;
+   color: white;
+   font-weight: bold;
+}
+.error{
+    position: fixed;
+    bottom: 512px;
+    left:140px;
+    color: red;
+}
+
+.product .imgbox { 
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 4px;
+    left:118px;
+    height:130px;
+    width:270px;
+    bottom: 375px;
+    background-color: rgb(236, 232, 232);
+}
+.product .imgbox .imgbox2{
+    position: fixed;
+    border: 2px solid ;
+    height:80px;
+    width:80px;
+    right:208px;
+    font-size: 12px;
+   top:150px;
+}
+.product .imgbox .di input{
+    position: relative;
+   color: black;
+   left:13px;
+   top:78px;
+}
+.product .error9{
+    position: fixed;
+    font-size: 8px;
+    right: 210px;
+    top:190px;
+    width:67px;
+}
+.product .error10{
+    position: fixed;
+    height: 80px;
+    width:80px;
+    right:208px;
+    font-size: 12px;
+   top:150px;
+}
+.product .imgbox input{
+    position: fixed;
+    top:191px;
+    font-size:5px;
+/* width:70px; */
+right:257px;
+color:wheat;
+}
+
+.product .box2{
+    position: fixed;
+    top:273px;
+    right: 168px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    left:147px;
+    width:220px;
+    height: 30px;
+    color: white;
+}
+.product2{
+    position: fixed;
+font-weight:268px;
+top:270px;
+left:85px;
+font-size: large;
+color: white;
+}
+.product .box2 input{
+    position: fixed;
+    text-align: center;
+    color:white;
+}
+.product .error1{
+    position: fixed;
+    bottom: 315px;
+    left:178px;
+    font-size: 15px;
+    color: red;
+}
+.product .box3{
+    position: fixed;
+    top:318px;
+    right: 168px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    left:148px;
+    width:220px;
+    height: 30px;
+    color: white;
+
+}
+.product3{
+    position: fixed;
+font-weight:268px;
+top:318px;
+left:85px;
+font-size:large;
+color: white;
+}
+.product .error2{
+    position: fixed;
+    bottom: 237px;
+    left:190px;
+    color: red;
+}
+
+.product .box4{
+    position: fixed;
+    top:419px;
+    right: 168px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    left:148px;
+    width:220px;
+    height: 30px;
+    color: white;
+}
+.product4{
+    position: fixed;
+font-weight:268px;
+top:418px;
+left:95px;
+font-size:large;
+color: white;
+}
+.product .error3{
+    position: fixed;
+    bottom: 168px;
+    left:190px;
+    color: red;
+}
+.product .box5{
+    position: fixed;
+    top:479px;
+    right: 168px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    left:148px;
+    width:220px;
+    height: 30px;
+    color: white;
+}
+.product5{
+    position: fixed;
+font-weight:268px;
+top:478px;
+left:76px;
+font-size: large;
+color: white;
+
+}
+.product .error4{
+    position: fixed;
+    bottom: 107px;
+    left:170px;
+    color: red;
+}
+select {
+    position: fixed;
+    right: 125px;
+    height: 30px;
+    width:237px;
+    top:368px;
+    background: white;
+    border-radius: 4px;
+}
+.product  .error5{
+    position: fixed;
+    top:499px;
+    color: red;
+
+    right: 157px;
+    
+}
+button{
+    position: fixed;
+    top:598px;
+    height: 30px;
+    width: 60px;
+    left:227px;
+}
+button:hover{
+    transition: 2s white ease-in;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+select {
+    text-align: center;
+}
+.error{
+    position: fixed;
+}
+.errorhi{
+    position: fixed;
+    color: red;
+    top:100px;
+    left:165px;
+}
+textarea{
+    position: fixed;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    width:237px;
+    top:528px;
+    left:138px;
+    text-align: center;
+    color: white;
+}

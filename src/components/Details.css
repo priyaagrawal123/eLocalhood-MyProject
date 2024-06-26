@@ -1,0 +1,42 @@
+.order{
+    position: relative;
+}
+.details{
+    position: fixed;
+    top:14px;
+    left:498px;
+    font-size: 39px;
+    border: 2px solid white;
+}
+.orderdetails{
+    position: fixed;
+    left:-193px;
+    /* color: blanchedalmond; */
+    width:294px;
+    top:6890px;
+}
+.order-details{
+    position: fixed;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    backdrop-filter: blur(20px);
+    width: 1500px;
+    height:847px;
+right:15px;
+    padding: 50px 50px 50px 50px;
+    /* left: 0px; */
+    top:15px;
+}
+.orderdetails .Pd-box{
+    position: relative;
+    left:297px;
+    top:293px;
+}
+
+
+
+
+
+
+
+

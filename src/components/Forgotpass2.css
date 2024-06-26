@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    height:300px;
+    width:400px;
+    box-shadow: 0px 0px 5px 2px #ccc;
+    backdrop-filter: blur(10px);
+}
+ .wrapper .input-box{
+    position: relative;
+    height:100px;
+    border-radius: 60px;
+   
+}
+.wrapper .input-box input{
+    height:30px;
+    border-radius: 4px;
+    border: 2px solid white;
+    background: transparent;    
+    width:200px;
+    text-align: center;
+    color:white;
+}
+.input-box .eyeicon{
+    position: relative;
+left:-20px;
+color: white;
+}
+.wrapper button{
+    position: relative;
+    height:30px;
+    border-radius: 4px;
+right:-25px;
+background-color:skyblue;
+    width:150px;
+    /* border: 2px solid black; */
+}

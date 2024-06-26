@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+
+.seller{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+width: 500px;
+border-radius: 4px;
+box-shadow: 2px 2px 5px 1px rgb(190, 190, 190);
+height:650px;
+/* top:20px; */
+backdrop-filter: blur(20px);
+/* bottom: 120px; */
+color:white ;
+background-color: transparent;
+right:429px;
+border: 1px solid white;
+}
+
+.seller .header3{
+position: fixed;
+    color:white;
+   width:379px;
+   top:0px;
+   height: 45px;
+    left:67px;
+    background:linear-gradient(45deg,pink,blue);
+    font-size: 30px;
+font-style: "Croissant One", serif;
+}
+.seller .inputbox1{
+    position: fixed;
+    bottom:570px;
+left:170px;
+background: transparent;
+border: 2px solid white;
+color: white;
+text-align: center;
+border-radius: 4px;
+height: 25px;
+}
+ .seller .inputbox1 input{
+    position: fixed;
+height:300px;
+text-align: center;
+bottom: 10px;
+}
+/* left:80px; */
+
+.seller .error2{
+    position: fixed;
+    left:180px;
+    bottom: 550px;
+    color: red;
+}
+
+.seller .error1{
+    position: fixed;
+    left:75px;
+    bottom: 548px;
+
+}
+.box{
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+    height: 150px;
+    width: 300px;
+    left:100px;
+    bottom: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.seller .box .box2 {
+    position: fixed;
+    left:180px;
+   
+}
+.seller .box .box3{
+    position: fixed;
+    border:2px solid black;
+    height:100px;
+    background-color: transparent;
+    width:100px;
+    top:120px;
+    left:130px;
+}
+.seller .box .box3 .fimage{
+    position: fixed;
+    font-size: 8px;
+    width:60px;
+    top:130px;
+    left:140px;
+}
+.seller .box .box3 .file1 input{
+    position: fixed;
+    font-size: 8px;
+    width:87px;
+    top:220px;
+    left:135px;
+}
+.seller .box .error5{
+    position: fixed;
+    top:190px;
+    color: red;
+    font-size: 8px;
+    left:280px;
+    width:98px;
+}
+.seller .box .error3{
+    position: fixed;
+    font-size: 8px;
+    top:188px;
+    right:270px;
+    width:97px;
+   
+}
+.seller .box .errorr1{
+    position: fixed;
+    font-size: 9l;
+}
+.seller .box .box4{
+    position: fixed;
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    bottom:427px;
+    left:270px;
+}
+.seller .box .box4 .bimage{
+    position: fixed;
+    font-size: 8px;
+    width:60px;
+    top:130px;
+    left:280px;
+}
+.seller .box .box4 .file2 input{
+    position: fixed;
+    font-size: 8px;
+    width:87px;
+    top:225px;
+    left:284px;
+}
+.seller .numberdiv .number{
+    position: fixed;
+    bottom: 370px;
+    left:180px;
+    background: transparent;
+border: 2px solid white;
+color:white;
+text-align: center;
+border-radius: 4px;
+height: 25px;
+}
+.seller .error8{
+    position: fixed;
+    top:275px;
+    left:140px;
+    color: red;
+}
+.seller .box5{
+    position: fixed;
+    border: 2px solid black;
+    top:300px;
+    left:140px;
+    height: 120px;
+    width:220px;
+    border-radius: 4px;
+    background-color:white;
+}
+.seller .box5 .box6{
+    position: fixed;
+    left:174px;
+    color: black;
+}
+.seller .box5 .box7{
+    position: fixed;
+    border: 2px solid black;
+    height:80px;
+    width:80px;
+    left:210px;
+    top:320px;
+    color: black;
+}
+.seller .error7{
+    position: fixed;
+    bottom:350px;
+    right:120px;
+    font-size: 12px;
+}
+.seller .box5 .box7 .pphoto{
+    position: fixed;
+    font-size: 8px;
+    top:340px;
+    left:215px;
+}
+.seller .box5 .box7 .file3 input{
+    position: fixed;
+    font-size: 5px;
+    top:400px;
+    width:70px;
+    right:209px;
+}
+.seller .error9{
+    position: fixed;
+    top:355px;
+    font-size: 8px;
+    right:210px;
+    width:80px;
+}
+.seller .errorr3{
+    position: fixed;
+    top:480px;
+    font-size: 8px;
+    right:90px;
+
+}
+.seller .error10{
+    position: fixed;
+    /* font-size: 9px; */
+}
+.seller .bank{
+    position: fixed;
+    top:425px;
+    left:180px;
+    background: transparent;
+border: 2px solid black;
+text-align: center;
+border-radius: 4px;
+}
+.seller .error11{
+    position: fixed;
+    top:445px;
+    right:90px;
+    font-size: 12px;
+}
+.seller .upi{
+    position: fixed;
+    top:440px;
+    left:180px;
+    background: transparent;
+border: 2px solid white;
+color:white;
+text-align: center;
+border-radius: 4px;
+height: 25px;;
+}
+.seller .error13{
+    position: fixed;
+    top:474px;
+    font-size: 12px;
+    right: 152px;
+}
+.seller .error14{
+    position: fixed;
+    top:470px;
+    left:190px;
+    font-size: 12px;
+    color:red;
+}
+.seller .box8{
+    position: fixed;
+    border: 2px solid black;
+    top:495px;
+    right:135px;
+    height: 120px;
+    width:220px;
+    border-radius: 4px;
+    background-color:white;
+}
+.seller .box8 .box10 .qrphoto{
+    position: fixed;
+    font-size: 8px;
+    width:600px;
+    top:540px;
+    left:210px;
+    color: black;
+}
+.seller .box8 .box10 .file4 input{
+    position: fixed;
+    font-size: 6px;
+    width:87px;
+    top:598px;
+    width:70px;
+    color: black;
+}
+.seller .box8 .box9{
+    position: fixed;
+    left:190px;
+    color: black;
+}
+.seller .box8 .box10{
+    position: fixed;
+    border: 2px solid black;
+    height:80px;
+    width:80px;
+    left:210px;
+    color: black;
+    top:515px;
+}
+.proceed{
+    position: fixed;
+    top:618px;
+    right: 220px;
+    color:black;
+    height:21px;
+    border: 2px solid black;
+}
+.seller .error15{
+    position: fixed;
+    top:547px;
+    width:67px;
+    font-size: 8px;
+    right: 210px;
+    color:red;
+}
+.seller .error4{
+    position: fixed;
+    left:09px;
+}
+.seller .error4{
+    position: fixed;
+    height: 100px;
+    width:100px ;
+    top:120px;
+    left:130px;
+}
+.seller .error6{
+    position: fixed;
+    height: 100px;
+    width:100px ;
+    top:124px;
+    left:270px;
+}
+.seller .error10{
+    position: fixed;
+    height: 80px;
+    width:80px ;
+    top:320px;
+    left:210px;
+}
+.seller .error16{
+    position: fixed;
+    height: 80px;
+    width:80px ;
+    top:515px;
+    left:210px;
+}
+.seller .error12{
+    position: fixed;
+    color: red;
+    top:440px;
+    width:234px;
+    font-size: 12px;
+    left:156px;
+}
+
+.label1{
+    position: fixed;
+    top:52px;
+    left:90px;
+}
+.label2{
+    position: fixed;
+    top:253px;
+    left:90px;
+}
+.label3{
+    position: fixed;
+    top:421px;
+    left:97px;
+}
+.label4{
+    position: fixed;
+    top:440px;
+    left:131px;
+}

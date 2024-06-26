@@ -1,0 +1,86 @@
+.dashnav{
+    /* background: rgb(241, 219, 223); */
+    /* grid-area: nav; */
+    position: fixed;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border-bottom: 1px solid lightgray;
+    right:0;
+    width:9770px;
+    background-color: blue;
+    bottom:745px;
+    top:-1px;
+}
+.dashnav h1{
+    position: fixed;
+    /* top:109px; */
+    color:white;
+    left:800px;
+    top:5;
+
+}
+.dashnav .searchbox input{
+    position: fixed;
+    left:380px;
+    height: 30px;
+    background-color: transparent;
+    border:2px solid white;
+    color: white;
+    border-radius: 4px;
+    width:320px;
+    bottom:867px;
+}
+.dashnav .searchbox .searchicon{
+    position: fixed;
+    right: 1232px;
+    bottom:868px;
+    color: white;
+}
+.navleft > a{
+    position: fixed;
+margin-right: 30px;
+color: rgb(242, 234, 235);
+font-size: 15px;
+font-weight: 700;
+/* left:899px; */
+}
+.navleft .active_link{
+    color: aqua;
+    border-bottom: 3px solid blue;
+    padding: 12px;
+}
+.navright{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navright>a{
+    margin: 20px;   
+}
+
+@media only screen and (max-width:978px){
+    .baricon{
+        display: inline;
+    }
+}
+@media only screen and (max-width:480px){
+    .navleft{
+        display: none;
+    }}
+     .dashnav a{
+    position: fixed;
+   right:104px;
+    color:white; 
+
+} 
+.profileimage{
+    position: fixed;
+    right:45px;
+    width:30px;
+    top:19px;
+}
+
