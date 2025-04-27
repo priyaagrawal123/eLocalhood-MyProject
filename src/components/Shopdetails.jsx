@@ -185,30 +185,30 @@ const Shopdetails = () => {
             setIsValid2(false);
             setErrorMessage2('Image is required.');
         }
-        axios.post('http://192.168.128.15:4002/shop', {
-            shopName: shopname,
-            category: category,
-            shopAddress: address,
-            pincode: pincode,
-            whatsappNumber: wpnumber,
-            deliveryDetails: delivery,
-            shopPhoto: image1,
-            ownerPhoto: image2
-        })
-            .then((response) => {
+        // axios.post('http://192.168.128.15:4002/shop', {
+        //     shopName: shopname,
+        //     category: category,
+        //     shopAddress: address,
+        //     pincode: pincode,
+        //     whatsappNumber: wpnumber,
+        //     deliveryDetails: delivery,
+        //     shopPhoto: image1,
+        //     ownerPhoto: image2
+        // })
+        //     .then((response) => {
 
-                console.log(response.data);
-                setTimeout(timer, 3000);
-            })
-            .catch((error) => {
-                console.log(error);
-                if (error.response) {
-                    console.log(error.response.data);
-                    console.log(error.response.status);
-                    console.log(error.response.headers);
-                }
+        //         console.log(response.data);
+        //         setTimeout(timer, 3000);
+        //     })
+        //     .catch((error) => {
+        //         console.log(error);
+        //         if (error.response) {
+        //             console.log(error.response.data);
+        //             console.log(error.response.status);
+        //             console.log(error.response.headers);
+        //         }
                 navigate('/productdetails');
-            });
+        //     });
     }
 
     return (

@@ -22,7 +22,7 @@ function Sellerdetails(handleNext) {
         }
         setError(false);
         setSubmitClicked(true); // Set submitClicked to true when button is clicked
-        // navigate('/shopdetails');
+        navigate('/shopdetails');
     }
 
     const [file, setFile] = useState(null);
@@ -241,23 +241,23 @@ function Sellerdetails(handleNext) {
         formData.append('aadharNumber', aadharNumber);
         formData.append('upiId', upiId);
 
-        axios.post('http://192.168.128.15:3002/submitForm', formData)
-            .then((response) => {
-                console.log(response.data);
-                setTimeout(timer, 300);
-                if (handleNext) handleNext(); //
+        // axios.post('http://192.168.128.15:3002/submitForm', formData)
+        //     .then((response) => {
+        //         console.log(response.data);
+        //         setTimeout(timer, 300);
+        //         if (handleNext) handleNext(); //
                 navigate("/shopdetails");
 
-            })
-            .catch((error) => {
-                console.log(error);
-                if (error.response) {
-                    console.log(error.response.data);
-                    console.log(error.response.status);
-                    console.log(error.response.headers);
-                }
-                alert("Error occurred while signing in");
-            });
+        //     })
+        //     .catch((error) => {
+        //         console.log(error);
+        //         if (error.response) {
+        //             console.log(error.response.data);
+        //             console.log(error.response.status);
+        //             console.log(error.response.headers);
+        //         }
+        //         alert("Error occurred while signing in");
+        //     });
     };
 
 

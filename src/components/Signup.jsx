@@ -88,21 +88,21 @@ const Signup = ({ onNextStep }) => {
             return;
         }
 
-        axios.post('http://192.168.128.90:3000/api/Sign_Up', {
-            Email: email,
-            Phoneno: phoneno,
-            Pass: pass,
-            ConfirmPass: confirmPass
-        })
-            .then((response) => {
-                console.log(response.data);
-                alert("Successfully signed in");
-                // onNextStep();
+    //     axios.post('http://192.168.128.90:3000/api/Sign_Up', {
+    //         Email: email,
+    //         Phoneno: phoneno,
+    //         Pass: pass,
+    //         ConfirmPass: confirmPass
+    //     })
+    //         .then((response) => {
+    //             console.log(response.data);
+    //             alert("Successfully signed in");
+    //             // onNextStep();
                 navigate("/sellerdetails");
-            })
-            .catch((error) => {
-                console.log(error);
-            });
+    //         })
+    //         .catch((error) => {
+    //             console.log(error);
+    //         });
     };
 
     return (

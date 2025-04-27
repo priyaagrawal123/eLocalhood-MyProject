@@ -106,17 +106,17 @@ const Productdetails = () => {
             formData.append('image', product.image);
         }
 
-        axios.post('http://192.168.128.90:3000/api/Product_Details', formData)
-            .then((response) => {
-                console.log(response.data);
-                setTimeout(() => {
-                    alert("Successfully Created Your Account");
+        // axios.post('http://192.168.128.90:3000/api/Product_Details', formData)
+        //     .then((response) => {
+        //         console.log(response.data);
+        //         setTimeout(() => {
+        //             alert("Successfully Created Your Account");
                     navigate('/congrats');
-                }, 300);
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
+        //         }, 300);
+        //     })
+        //     .catch((error) => {
+        //         console.error('Error:', error);
+        //     });
     };
 
     const handleImageChange = (e) => {

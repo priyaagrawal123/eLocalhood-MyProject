@@ -70,6 +70,7 @@ const App = () => {
     <div>
       {renderStepper()}
       <Routes>
+      <Route path="/" element={<Loginform/>} />
         <Route path="/signup" element={<Signup onNextStep={handleNextStep} />} />
         <Route path="/sellerdetails" element={<Sellerdetails onNextStep={handleNextStep} />} />
         <Route path="/shopdetails" element={<Shopdetails onNextStep={handleNextStep} />} />

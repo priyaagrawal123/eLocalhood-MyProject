@@ -18,7 +18,7 @@ function Loginform() {
             return;
         }
         setError(false);
-        // navigate('/sellerdetails');
+        navigate('/sellerdetails');
 
     }
 
@@ -75,27 +75,27 @@ function Loginform() {
         }
         setError(false);
 
-        axios.post('http://192.168.128.90:3000/api/Login', {
-            Email: email,
-            Pass: pass
-        })
-            .then((response) => {
-                console.log(response.data);
-                // const customerID = response.data.user.id;
-                // setCustomerId(customerID)
-                // console.log("Customer ID:: " + customerID);
-                // Cookies.set('customerID', customerID);
-                setTimeout(timer, 300);
-            })
-            .catch((error) => {
-                console.log(error);
-                if (error.response) {
-                    console.log(error.response.data);
-                    console.log(error.response.status);
-                    console.log(error.response.headers);
-                }
-                alert("Error occurred while login in");
-            });
+    //     axios.post('http://192.168.128.90:3000/api/Login', {
+    //         Email: email,
+    //         Pass: pass
+    //     })
+    //         .then((response) => {
+    //             console.log(response.data);
+    //             // const customerID = response.data.user.id;
+    //             // setCustomerId(customerID)
+    //             // console.log("Customer ID:: " + customerID);
+    //             // Cookies.set('customerID', customerID);
+    //             setTimeout(timer, 300);
+    //         })
+    //         .catch((error) => {
+    //             console.log(error);
+    //             if (error.response) {
+    //                 console.log(error.response.data);
+    //                 console.log(error.response.status);
+    //                 console.log(error.response.headers);
+    //             }
+    //             alert("Error occurred while login in");
+    //         });
     };
 
     return (
