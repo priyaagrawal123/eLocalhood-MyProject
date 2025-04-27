@@ -1,0 +1,42 @@
+.Navbar input{
+    text-align: center;
+    width: 80%;
+    height:30px;
+    position: relative;
+    bottom:180px;
+    background: transparent;
+    border: 2px solid rgb(66, 64, 64);
+    border-radius: 4px;
+    left:50px;
+    top:1080px
+}
+.Navbar .input-box .input{
+    color:red;
+}
+.searchbox .searchicon{
+    position: relative;
+    font-size: 20px;
+    bottom:150px;
+    right: 420px;
+    top:2783px;
+}
+
+.logo img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    bottom: 100px;
+    right:430px;
+    mix-blend-mode: color-burn;
+
+}
+.Navbar .button1{
+    position: relative;
+    width: 90px;
+    height:30px;
+    bottom:190px;
+    left:800px;
+    border: 2px solid rgb(66,64,64);
+    border-radius: 4px;
+}
+

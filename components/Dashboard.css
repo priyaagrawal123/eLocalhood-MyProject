@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px rgb(200, 160, 166);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: green;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: pink;
+}
+
+
+
+.text-primaery-p{
+    color:lightgrey;
+    font-size: 14px;
+    font-weight: 700;
+}
+.font-bold{
+    font-weight: 700;
+}
+.text-title{
+    color: brown;
+}
+.text-lightblue{
+    color: aliceblue;
+}
+
+.text-red{
+    color: brown;
+}
+.text-yellow{
+    color: yellow;
+}
+.text-green{
+    color: aquamarine;
+}
+.container{
+    display: grid;
+    height:100vh;
+    background-color:rgb(218, 213, 213) ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: "lato",sans-serif;
+    min-width:1938px;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: "sidebar nav nav nav" "sidebar main main main";
+}
+@media only screen and (max-width:970px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas: "nav" "main";
+    }
+}
+ .boxchart {
+    position: fixed;
+    background-color: white;
+    background: 5px solid black;
+    box-shadow: 4px 2px 6px 2px  grey;
+}
+.container .stat1{
+    position: fixed;
+  background:   linear-gradient(90deg, #E4F3E3    0%, #5CA9E9 100%);
+  height: 180px;
+  width:180px;
+  bottom: 558px;
+  align-items: center;
+  left:429px;
+}
+.stat1 .stat-input {
+    margin-top: 10px; /* Margin above the input */
+    width: calc(100% - 24px); /* Full width minus padding and border */
+    padding: 10px; /* Padding inside the input */
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 16px; /* Font size */
+    color:white; /* Text color */
+}
+
+.container .stat2{
+    position: fixed;
+    bottom: 558px;
+        /* background: linear-gradient(270deg, #5ae2c7 0%, #2fd1d1 100%); */
+     background:    linear-gradient(90deg,  #E4F3E3    0%, #5CA9E9 100%);
+        height: 180px;
+  width:180px;
+  left:639px;
+}
+.container .stat3{
+    position: fixed;
+    bottom: 558px;
+        /* background: linear-gradient(270deg, #5ae2c7 0%, #2fd1d1 100%); */
+     background:    linear-gradient(90deg,  #E4F3E3    0%, #5CA9E9 100%);
+        height: 180px;
+  width:180px;
+  left:858px;
+}
+.container .stat4{
+    position: fixed;
+    bottom: 558px;
+        /* background: linear-gradient(270deg, #5ae2c7 0%, #2fd1d1 100%); */
+     background:    linear-gradient(90deg,  #E4F3E3    0%, #5CA9E9 100%);
+        height: 180px;
+  width:180px;
+  left:1068px;
+}
+.container .piechart{
+    position: fixed;
+    left:937px;
+}
+.chart-container .myChart{
+    position: fixed;
+    left:969px;
+    top:26px;
+}
+.sidebar{
+    position: fixed;
+    left:2px;
+}
+.chart-container{
+    position: fixed;
+    left:293px;
+}

@@ -1,0 +1,124 @@
+/* Updatedelete.css */
+.producttable thead {
+    background-color: #f2f2f2; /* Set background color */
+}
+
+.producttable th {
+    padding: 10px; /* Add padding to th elements */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add border */
+    /* color: yellow; */
+}
+.producttable td{
+color:black;
+background-color:yellow;
+}
+h1{
+    position: fixed;
+    top:3px;
+    left:496px;
+}
+.btn-box{
+    display: grid;
+}
+.update1{
+    position: fixed;
+    left:344px;
+}
+.delete1{
+    position: fixed;
+    left:398px;
+}
+/* .side{
+    position: fixed;
+    bottom:248px;
+} */
+.body{
+    position: fixed;
+    background:transparent;
+    height:1100px;
+    /* backdrop-filter: blur(20px); */
+}
+.du{
+    position: fixed;
+    left:416px;
+    top:90px;
+    width:1098px;
+}
+.custom-swal {
+    background-color: #f1f1f1;
+     /* Change background color */
+    /* Adjust font size */
+    padding: 10px 20px; 
+}
+.custom-swal .swal2-confirm {
+    font-size: 14px; /* Adjust font size */
+    padding: 10px 20px;
+    width:79px; /* Adjust padding */
+    /* background-color: red; */
+    left:579px; /* Change background color */
+    color: white; /* Change text color */
+    top:470px;
+}
+.custom-swal .swal2-cancel {
+    position:fixed ;
+    font-size: 14px; /* Adjust font size */
+    padding: 10px 20px; /* Adjust padding */
+    width:80px;
+    left:893px;
+    top:470px;
+}
+.custom-swal .swal2-title {
+    font-weight: bold; /* Make the text bold */
+    top:-12px;
+}
+
+.custom-swal .swal2-content {
+    color: green; /* Change text color */
+    font-style: italic; /* Make the text italic */
+}
+.custom-swal .swal2- {
+    color: green; /* Change text color */
+    font-style: italic; /* Make the text italic */
+}
+.custom-swal .update-swal .swal2-confirm {
+    font-size: 14px; /* Adjust font size */
+    padding: 10px 20px; /* Adjust padding */
+    background-color: #4CAF50; /* Change background color */
+    color: black; /* Change text color */
+}
+
+
+.update-body{
+    position: fixed;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    backdrop-filter: blur(20px);
+    width: 1500px;
+    height:895px;
+right:15px;
+    padding: 50px 50px 50px 50px;
+    /* left: 0px; */
+    top:4px;
+}
+.button{
+    position: fixed;
+    top:439px;
+    left:474px;
+    width:189px;
+}
+.update{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+.delete{
+    background-color:green;
+    color: white;
+    text-decoration: none;
+}
+.producttable{
+    position: fixed;
+    top:103px;
+    left:194px;
+}

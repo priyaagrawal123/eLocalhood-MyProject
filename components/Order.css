@@ -1,0 +1,63 @@
+
+
+.order-body{
+    position: fixed;
+    background-color: transparent;
+    
+    backdrop-filter: blur(20px);
+    width: 1500px;
+    height:847px;
+right:15px;
+    padding: 50px 50px 50px 50px;
+    
+    top:15px;
+}
+.ordertable {
+    position: fixed;
+    width: 85%;
+    border-collapse: collapse;
+    background-color: lawngreen;
+    left:79px;
+    top:94px;
+}
+h1{
+    position: fixed;
+   top:-38px;
+    left:629px;
+    font-size: 48px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    border:2px solid white;
+}
+.ordertable th, .ordertable td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.ordertable th {
+    background-color: #f2f2f2;
+    
+}
+
+.ordertable tr:hover {
+    background-color:lightblue;
+}
+
+.ordertable td {
+    vertical-align: top;
+}
+
+.order-body ul .ordertable .table1{
+    text-decoration: none;
+}
+.accept1{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.reject1{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}

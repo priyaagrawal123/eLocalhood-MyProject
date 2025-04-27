@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anta&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Galdeano&display=swap');
+#sidebar{
+    position: fixed;
+    background:rgb(212, 137, 194);
+    backdrop-filter: blur(20px);
+   
+    -webkit-transition: all 0.5s;
+    transition: all 2s;
+    height:928px;
+    width:284px;
+ right:1639px;
+ box-shadow: 1px 2px 3px 2px grey;
+ font-family: "Galdeano", sans-serif;
+ text-decoration: none;
+ top:-13px;
+}
+
+.sidebar .sidebartitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    margin-bottom: 30px; 
+    text-decoration: none;
+    
+}
+.sidebartitle .sidebarimg img{
+    position: relative;
+  
+    mix-blend-mode: color-burn;
+    height:80px;
+    width:80px;
+    left:95px;
+    top:10px;
+       
+        color: white;
+}
+
+h2{
+    position: fixed;
+   
+    color:white;
+    background-color: transparent;
+    font-size: 30px;
+  
+    padding: 0 10px;
+    font-weight: 700;
+    left:50px;
+    top:80px;
+  
+}
+
+.sidebarmenu .sidebarlink1 .dicon{
+    position: relative;
+    color: white;
+}
+ .sidebarmenu .sidebarlink1 .homeicon{
+    position: relative;
+    background-color: blue;
+}
+
+.sidebarmenu .sidebarlink  {
+    position: relative;
+   left:30px;
+   font-size:30px;
+   top:40px;
+ 
+}
+.sidebarmenu .sidebarlink .icon{
+    position: relative;
+    left:8px;
+    top:8px;
+   
+}
+.sidebarmenu .sidebarlink :hover{
+    position: relative;
+    color:rgb(237, 125, 213);
+    background-color: rgb(229, 24, 215);
+  
+}
+.sidebarmenu .sidebarlink  a{
+    position: relative;
+   left:10px;
+   font-size: 25px;
+   color:black;
+   text-decoration: none;
+   background: 1s 1s blue;
+
+} 
+ .sidebarlink  .icon:hover{
+    position: relative;
+    color:rgb(237, 125, 213);
+    background-color: rgb(229, 24, 215);
+} 
+.sidebarlink{
+    position: relative;
+    height: 70px;
+}

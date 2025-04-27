@@ -1,0 +1,242 @@
+
+
+.wrapper{
+    position: relative;
+height: 480px;
+width:500px;
+    /* border:2px solid black; */
+    border-radius: 4px;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    /* justify-content: center; */
+    right:467px;
+    /* left:370px; */
+    /* right: 200px; */
+    padding:10px 10px 10px 50px;
+    backdrop-filter: blur(20px); 
+    box-shadow: 2px 2px 5px 0.7 white;
+    border-radius: 4px;
+    border: 2px solid white;
+    
+}
+.logo img{
+    position: fixed; 
+    height:50px;
+  width:50px;
+  left:230px;
+  bottom:420px;
+   mix-blend-mode:color-burn;
+}
+.header2{
+    position: fixed;
+    text-align: center;
+    /* bottom:380px; */
+    left:167px;
+    width:167px;
+    top:70px;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg,blue,pink)
+}
+
+/* .wrapper .inputbox .icon{
+position: absolute;
+left:245px;
+font-size: 25px;
+bottom: 80px;
+} */
+.wrapper .inputbox1{
+position:fixed;
+height: 80px;
+width:200px;
+/* right:250px; */
+bottom:270px;
+right: 130px;
+}
+
+.wrapper .inputbox1 input{
+    position: fixed;
+    height:30px;
+    text-align: center;
+    width:260px;
+    border-radius:3.5px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+.wrapper .inputbox2{
+    position:fixed;
+    height: 80px;
+    width:200px;
+    /* right:250px; */
+    bottom:210px;
+    right: 130px;
+    }
+    
+    .wrapper .inputbox2 input{
+        position: fixed;
+        height:30px;
+        text-align: center;
+        width:260px;
+        border-radius:3.5px;
+        border: 2px solid white;
+        background: transparent;
+        color:white;
+    }
+    .wrapper .inputbox3{
+        position:fixed;
+        height: 80px;
+        width:200px;
+        /* right:250px; */
+        bottom:150px;
+        right: 130px;
+        }
+        
+        .wrapper .inputbox3 input{
+            position: fixed;
+            height:30px;
+            text-align: center;
+            width:260px;
+            border-radius:3.5px;
+            border: 2px solid white;
+            background: transparent;
+            color:white;
+        }
+        .wrapper .inputbox4{
+            position:fixed;
+            height: 80px;
+            width:200px;
+            /* right:250px; */
+            bottom:90px;
+            right: 130px;
+            }
+            
+            .wrapper .inputbox4 input{
+                position: fixed;
+                height:30px;
+                text-align: center;
+                width:260px;
+                border-radius:3.5px;
+                border: 2px solid white;
+                background: transparent;
+                color:white;
+            }
+            .wrapper .loginlink{
+                position: fixed;
+                bottom:40px;
+                right: 130px;
+                color:white;
+            }
+            .loginlink a{
+                position: fixed;
+                color: white;
+            }
+            .wrapper button{
+                position: fixed;
+                color:black;
+            left:200px;
+          top:355px;
+            height:30px;
+            width:100px;
+            font-weight: 20px;
+            }
+ .wrapper .email{
+  position: fixed;
+  left:80px;
+  top:130px;
+  color: white;
+}
+.wrapper .phonen{
+    position:fixed;
+    left:45px;
+    top:190px;
+    color: azure;
+
+}
+.wrapper .mailicon{
+    position: fixed;
+    bottom: 325px;
+    right: 340px;
+    font-size: 20px;
+    color: azure;
+}
+.wrapper .phoneicon{
+    position: fixed;
+    bottom: 268px;
+    right: 340px;
+    font-size: 20px;
+    color: azure;
+}
+.wrapper .error1{
+    position: fixed;
+    bottom: 300px;
+    left:140px;
+    font-size: 12px;
+    width:1040px;
+    
+}
+.wrapper .error2{
+    position: fixed;
+    bottom: 300px;
+    left:230px;
+    font-size: 12px;
+}
+.wrapper  .error3{
+    position: fixed;
+    left:150px;
+    bottom: 240px;
+    font-size: 12px;
+}
+.wrapper  .errorr4{
+    position: fixed;
+    left:158px;
+    bottom:178px;
+    font-size: 12px;
+}
+.wrapper  .error4{
+    position: fixed;
+    left:198px;
+    bottom:238px;
+    font-size: 12px;
+}
+.wrapper  .error5{
+    position: fixed;
+    left:204px;
+    bottom: 173px;
+    font-size: 12px;
+}
+.wrapper  .error6{
+    position: fixed;
+    left:230px;
+    bottom: 180px;
+    font-size: 12px;
+}
+.wrapper .error7{
+    position: fixed;
+    font-size: 12px;
+    bottom: 125px;
+    left:220px;
+}
+.wrapper .error8{
+    position:fixed;
+    top:340px;
+    right: 130px;
+    font-size: 12px;
+}
+
+.password-toggle1{
+    position: fixed;
+    color: white;
+    top:250px;
+    left:398px;
+}
+
+.password-toggle{
+    position: fixed;
+    color: white;
+   
+    top:307px;
+    left:398px;
+}

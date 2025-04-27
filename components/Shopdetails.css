@@ -1,0 +1,330 @@
+.shop{
+    position: relative;
+    text-align: center;
+    display: flex;
+    height:650px;
+    width:500px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    padding:10px 10px 10px 50px;
+    box-shadow: 2px 2px 4px 0.7px rgb(248, 247, 247);
+    backdrop-filter: blur(20px); 
+    border-radius: 4px;
+    right:429px;
+}
+.shop .header4{
+    position: fixed;
+   color: white;
+ /* right: 1480px; */
+ left:103px;
+   top:0px;
+   width:317px;   
+   height: 37px;
+   font-size: 30px;
+   text-align:top;
+   background: linear-gradient(45deg,blue ,pink);
+}
+
+
+.shop .selectcategory select{
+    position: fixed;
+    color: black;
+     width:250px; 
+    height: 30px;
+    right: 121px;
+   top:45px;
+    background-color: aqua; 
+    border-radius: 4px;
+}
+.shop .inputbox1{
+    position: fixed;
+    height:60px;
+   bottom: 490px;
+   left:240px;
+}
+
+.shop .inputbox1 input{
+    position: fixed;
+    background: transparent;
+   height:30px;
+   width: 250px;
+   border: 2px solid white;
+   border-radius: 4px;
+   text-align: center;
+   right: 120px;
+   color: white;
+}
+.shop .error2{
+    position: fixed;
+    top:140px;
+left:160px;
+font-size: 12px;
+color:red;
+}
+.shop .error1{
+    position: fixed;
+    top:140px;
+    right: 70px;
+    font-size: 12px;
+}
+.shop  .inputbox2{
+    position: fixed;
+    top:160px;
+    left:170px;
+    
+   
+}
+.shop .inputbox2 input{
+    position: fixed;
+    background: transparent;
+    border:2px solid white;
+    border-radius: 4px;
+    height: 30px;
+    width:250px;
+    left:130px;
+    text-align:center;
+    color: white;
+}
+.shop .error4{
+    position: fixed;
+    bottom: 435px;
+    left:180px;
+    font-size: 12px;
+    color:red;
+}
+.shop .error3{
+    position: fixed;
+    bottom: 435px;
+    right: 100px;
+    font-size: 12px;
+}
+
+.shop .inputbox3{
+    position: fixed;
+    bottom: 430px;
+   right:370px;
+}
+
+.shop .inputbox3 input{
+    position: fixed;
+    height: 30px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    width:250px;
+    text-align:center;
+    color: white;
+}
+.shop .error6{
+    position: fixed;
+    top:250px;
+    right: 180px;
+    font-size: 12px;
+    color:red;
+}
+.shop .error5{
+    position: fixed;
+    top:250px;
+    right: 70px;
+    font-size: 12px;
+}
+.shop .inputbox4{
+    position: fixed;
+    bottom: 375px;
+   right:370px;
+}
+
+.shop .inputbox4 input{
+    position: fixed;
+    height: 30px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    width:250px;
+    text-align:center;
+    color: white;
+}
+.shop .error8{
+    position: fixed;
+    top:310px;
+    right: 198px;
+    font-size: 12px;
+    color:red;
+}
+.shop .error7{
+    position: fixed;
+    top:305px;
+    right: 40px;
+    font-size: 12px;
+}
+.shop .inputbox5{
+    position: fixed;
+    bottom: 321px;
+   right:370px;
+}
+
+.shop .inputbox5 input{
+    position: fixed;
+    height: 30px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 4px;
+    width:250px;
+    text-align:center;
+    color: white;
+}
+.shop .box{
+    position: fixed;
+    top:365px;
+    height: 120px;
+    border:2px solid black;
+    background-color: rgb(255, 255, 249);
+}
+.shop .box1{
+    color: black;
+}
+.shop .box2{
+    position: fixed;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius:4px;
+    right: 20px;
+    left:210px;
+}
+.shop .box .box2 .sphoto{
+    position: fixed;
+    font-size: 7px;
+    top:400px;
+    right: 220px;
+    color:black;
+}
+.shop .box .box2 .file1{
+    position: fixed;
+    height: 10px;
+}
+.shop .box .box2 .file1 input{
+    position: fixed;
+    font-size: 5px;
+    height: 40px;
+    top:472px;
+    right: 190px;
+    color:black;
+}
+.shop .error11{
+    position: fixed;
+    top:546px;
+    color: red;
+    font-size: 6px;
+    right: 215px;
+   width:75px;
+    
+}
+.shop .error9{
+position: fixed;
+font-size: 6px;
+right: 218px;
+top:430px;
+width:67px;
+}
+.shop .error10{
+    position: fixed;
+    height: 80px;
+    width:80px;
+    top:390px;
+    right: 210px;
+}
+
+.shop .box3{
+    position: fixed;
+    border: 2px solid black;
+    height: 120px;
+    right:150px;
+    top:498px;
+    background-color: rgb(255, 255, 255);
+}
+.shop .box3 .box5{
+    position: fixed;
+    width:80px;
+    height: 80px;
+    left:250px;
+    bottom: 40px;
+}
+.shop .box3 .box5 .yphoto{
+    position: fixed;
+    border: 2px solid black;
+    font-size: 8px;
+    right: 210px;
+    width:80px;
+    height: 80px;
+    left:210px;
+    bottom: 50px;
+}
+
+.shop .box3 .box5 .file2 input{
+    position: fixed;
+    font-size: 5px;
+    color:black;
+    top:601px;
+    left:220px;
+}
+.shopbutton{
+position: fixed;
+top:625px;
+color: black;
+right: 230px;
+height:21px;
+}
+.shop .error12{
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    right:210px;
+    top:520px;
+    color:red;
+}
+.shop .categoryerror{
+    position: fixed;
+    bottom: 550px;
+    right: 159px;
+    font-size:12px;
+}
+.label6{
+    position: fixed;
+    top:103px;
+    left:39px;
+    font-size: 15px;
+    color: white;
+}
+.label7{
+    position: fixed;
+    top:159px;
+    left:58px;
+    font-size: 15px;
+    color: white;
+}
+.label8{
+    position: fixed;
+    top:218px;
+    left:58px;
+    font-size: 15px;
+    color: white;
+}
+.label9{
+    position: fixed;
+    top:279px;
+    left:73px;
+    font-size: 15px;
+    color: white;
+}
+.label10{
+    position: fixed;
+    top:328px;
+    left:35px;
+    width:97px;
+    font-size: 15px;
+    color: white;
+}
+
